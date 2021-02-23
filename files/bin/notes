@@ -1,0 +1,9 @@
+#!/bin/bash
+
+file="$HOME/_notes.txt"
+
+if [ -z $1 ]; then
+    less $file
+else
+    less -p$1 $file
+fi

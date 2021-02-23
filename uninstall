@@ -1,0 +1,16 @@
+#!/bin/bash
+
+# Only remove if they are symlinks
+#
+
+if [[ -L "$HOME/bin/notes" ]]; then
+    rm $HOME/bin/notes
+else
+    echo "Will not remove $HOME/bin/notes - it's not a symlink!"
+fi
+
+if [[ -L "$HOME/_notes.txt" ]]; then
+    rm $HOME/_notes.txt
+else
+    echo "Will not remove $HOME/_notes - it's not a symlink!"
+fi

@@ -1,0 +1,4 @@
+#!/bin/bash
+
+ln -sn $(pwd)/files/_notes.txt $HOME/_notes.txt
+ln -s  $(pwd)/files/bin/notes  $HOME/bin/notes

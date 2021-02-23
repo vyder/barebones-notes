@@ -1,0 +1,66 @@
+# Disk space analysis (NCurses disk usage)
+ncdu /
+
+# Remove old journalctl logs
+#
+# Retain only past 2 days
+journalctl --vacuum-time=2d
+
+# Retain past 500MB
+journalctl --vacuum-size=500M
+
+
+# apt-get update key expired error?
+sudo apt-key adv --recv-keys --keyserver keyserver.ubuntu.com KEY
+
+
+# List of installed packages
+sudo dpkg --list
+
+
+# Search for a package to install
+sudo apt-cache search <keyword>
+
+
+# Package reverse dependencies
+sudo apt-cache rdepends --installed <package>
+# rc = removed,   conf-files
+# ii = installed, installed
+
+
+# Remove package and config files
+sudo apt-get remove --purge <package>
+
+
+# List of services
+services
+
+
+# Console
+https://console.monkeychai.com
+
+
+# Node process management
+# Ref: https://www.npmjs.com/package/forever
+#
+pm2 start app.js --name <name> -- <args>
+
+# Check process status
+pm2 [list|ls|status]
+
+# Logs
+pm2 logs
+
+# Monitor
+pm2 monitor
+
+
+# Add a ufw rule
+sudo ufw allow <port>
+
+# Delete a ufw rule
+sudo ufw status numbered
+sudo ufw delete <rule_num>
+
+
+# 
