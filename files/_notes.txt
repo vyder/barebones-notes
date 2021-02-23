@@ -41,7 +41,7 @@ https://console.monkeychai.com
 
 
 # Node process management
-# Ref: https://www.npmjs.com/package/forever
+# Ref: https://pm2.keymetrics.io/docs/usage/quick-start/
 #
 pm2 start app.js --name <name> -- <args>
 
