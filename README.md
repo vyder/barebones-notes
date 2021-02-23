@@ -1,5 +1,4 @@
-# Notes. And nothing else.
-
+# Notes. Write. Search. Close
 
 I've been wanting a notes app I can use in the terminal on my Ubuntu server for
 a while. Every few months I forget how to do mundane things like find reverse dependencies
