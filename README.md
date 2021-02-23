@@ -14,7 +14,7 @@ This is my solution, and my notes.
 
 ## Installation
 
-1. Fork this repo, and clear out the _notes.txt, or keep it if you want my notes 🤷🏽‍♂️
+1. Fork this repo, and clear out the _notes.txt, or keep it if you want [my notes](https://github.com/vyder/barebones-notes/blob/master/files/_notes.txt) 🤷🏽‍♂️
 2. Run `./install` - which will symlink `~/_notes.txt` and `~/bin/notes`
 
 ## Usage
